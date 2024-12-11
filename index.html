@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranavi's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/def157a55f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="container">
+        <nav>
+            <img src="imagelogo.png" class="logo" alt="Logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#portfolio">Accomplishments</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Personal Image and Text Section -->
+        <div class="header-content">
+            <div class="header-text">
+                <h1 id="main-text">Hi, I'm Pranavi Singh</h1>
+                <p id="sub-text">"From crafting seamless code to exploring cutting-edge tech, I blend skills and passion to build what's next!"</p>
+            </div>
+            <img src="bg1.jpeg" alt="Pranavi" class="personal-image">
+        </div>
+    </div>
+    <!-------------------------------------------------------------ABOUT------------------------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="bg2.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I bring a mix of technical expertise, creative flair, and a hunger for innovation. 
+                        With a strong passion for AI, machine learning, and full-stack development, I thrive on solving real-world problems through code, data-driven insights, and designing new solutions. 
+                        My journey includes leading dynamic projects, from crafting predictive models and scalable applications to designing engaging user experiences. I’ve collaborated with diverse teams to develop impactful solutions, embracing challenges as opportunities to grow. 
+                        Beyond academics, my love for technology blends with an eye for design and strategy, making me a well-rounded problem solver. Whether it's managing events, mentoring peers, or delivering presentations, I excel in leadership, analytical reasoning, and creative thinking.  
+                        I am driven to explore, learn, and contribute meaningfully to every opportunity that comes my way. Let’s innovate and build a smarter future together!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming:</span><br>Python, Java, C, C++, JavaScript, React</li>
+                            <li><span>Database Management:</span><br>SQL, MySQL, Oracle, MongoDB, PostgreSQL, SQL Server</li>
+                            <li><span>Cloud & Platforms:</span><br>Azure, Google Cloud</li>
+                            <li><span>Artificial Intelligence:</span><br>Machine Learning and Deep Learning, Data Visualization</li>
+                            <li><span>Operating Systems:</span><br>Windows, Unix/Linux</li>
+                            <li><span>Core Concepts:</span><br>Data Structures and Algorithms, DBMS, Computer Networks</li>
+                            <li><span>Web Development:</span><br>HTML, CSS, JavaScript, WordPress</li>
+                            <li><span>Methodologies:</span><br>Agile</li>
+                            <li><span>Other Skills:</span><br>Game Development, Digital Marketing, Public Speaking, Analytical Reasoning</li>
+                            <li><span>Tools:</span><br>Power BI, Google Analytics, Figma</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Project: Human City</span><br>Canada-based startup, Toronto (Jun 2024 - Present)</li>
+                            <li><span>Cisco Virtual Internship</span><br>Cisco Networking Academy (May 2024 - Jul 2024)</li>
+                            <li><span>Developer Intern (Full-Stack)</span><br>META CRAFTLAB Pvt. LTD, Mumbai (Jun 2024 - Jul 2024)</li>
+                            <li><span>Research Assistant</span><br>Symbiosis Institute of Technology, Pune (Feb 2023 - Present)</li>
+                            <li><span>Industrial Trainee</span><br>Rashtriya Chemicals & Fertilizers Ltd, Thal (May 2024 - Jun 2024)</li>
+                            <li><span>Volunteer Experience</span><br>Symbiosis Institute Of Technology (Aug 2022 - Mar 2023)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.Tech in Computer Science and Engineering</span><br>Symbiosis Institute of Technology, Pune
+                                (2022-2026)</li>
+                            <li><span>High School Education</span><br>St Mary's Convent School, Alibag</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li>Google Data Analytics Professional Certificate<span>- Coursera</span></li>
+                            <li>Google DProject Management Professional Certificate<span>- Coursera</span></li>
+                            <li>What is Data Science?<span>- IBM</span></li>
+                            <li>Researcher Management and Leadership Training<span>- University of Colorado</span></li>
+                            <li>Microsoft Azure AI Fundamentals<span>- Microsoft</span></li>
+                            <li>Google Project Management Professional Certificate<span>- Coursera</span></li>
+                            <li>Introduction to Cybersecurity<span>- Coursera</span></li>
+                            <li>Operating Systems Course<span>- Scaler</span></li>
+                            <li>Introduction to Statistics<span>- Stanford University</span></li>
+                            <li>Python Basics<span>- University of Michigan</span></li>
+                            <li>Cybersecurity Essentials<span>- Cisco</span></li>
+                            <li>Networking Essentials<span>- Cisco</span></li>
+                            <li>Introduction to Packet Tracer<span>- Cisco</span></li>
+                            <li>MongoDB for SQL Experts<span>- MongoDB</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------------------------PROJECTS----------------------------------------------------------->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div class="project-card">
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Dodge The Pipes Marine - Edition</h2>
+                    <p>Engineered "Dodge the Pipes - Marine Edition," an endless runner game inspired by Flappy Bird, utilizing Python and the PyGame library. 
+                        Enhanced player engagement and retention by a 50% increase in daily active users by introducing new levels and obstacles based on player feedback and game analytics.
+                        </p>
+                    <a href="https://github.com/pranavisingh8/DODGE_THE_PIPES___MARINE-EDITION">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Social Media Clone - (Vibe-ly)</h2>
+                    <p>Developed an app named "Vibe-ly," a social media platform designed to enhance online community interaction through features like post sharing and profile updates. 
+                        Achieved a prototype with full essential functionalities as measured by successfully conducting beta testing with over 100 users by incorporating user feedback into iterative design improvements.
+                        </p>
+                    <a href="https://github.com/pranavisingh8/Instagram-Clone">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>AI based Skin type Prediction</h2>
+                    <p>Developed machine learning and deep learning models to predict suitable skincare products based on skin types by using many Python Libraries.
+                        Analyzed trends influenced by environmental factors, lifestyle, and skin concerns across various age groups.</p>
+                    <a href="https://github.com/pranavisingh8/SkinTypeML">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Attendify</h2>
+                    <p>Attendify is an attendance management system designed to streamline the process of marking and tracking attendance for educational institutions. 
+                        This system provides separate interfaces for students and teachers, allowing for efficient attendance recording and reporting.</p>
+                    <a href="https://github.com/pranavisingh8/Attendify">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>AI Chatbot for Department of Justice Website</h2>
+                    <p>Created a virtual chatbot assistant to help with basic legal queries for new visitors to the Department of Justice website. 
+                        Designed to provide seamless user interactions, enhancing accessibility and efficiency in addressing public queries.
+                    </p>
+                    <a href="https://www.figma.com/proto/7n52GzXDnzoIWIUk8TAvrG/SIH-24?page-id=0%3A1&node-id=1-2&starting-point-node-id=1%3A2&t=ECXw2vacdN1jwrbu-1">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <i class="fa-brands fa-android"></i>
+                    <h2>FitTrack</h2>
+                    <p>FitTrack is a workout tracking application built with the MERN stack by using MongoDB, Express, React, Node.js that is the MERN stack</p>
+                    <a href="https://github.com/pranavisingh8/FitTrack">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Commune</h2>
+                    <p>A user friendly community utility social app that provides local updates, news and transport information</p>
+                    <a href="https://www.figma.com/proto/LiVFXzKWmMRuoqsi2Y9tKo/Commune?page-id=0%3A1&node-id=18-99&node-type=canvas&viewport=513%2C286%2C0.11&t=CoDSvK0rSPAUBdup-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=18%3A99&show-proto-sidebar=1">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Prediction of Energy Consumption Worldwide</h2>
+                    <p>Developed predictive models on the Global Energy Consumption Dataset using techniques. It depicted around 14% better results than previous researches carried out on the same dataset. 
+                        Analyzed production and consumption trends over two decades, exploring correlations with GDP growth and GDP per capita.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------------------------------------------ACHIEVEMENTS----------------------------------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Co-Curricular Achievements</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="topper.jpeg">
+                    <div class="layer">
+                        <h3>SEMESTER TOPPER</h3>
+                        <p> FIRST TOPPER FOR SEMESTER 1, SEMESTER 3 AND SECOND TOPPER FOR SEMESTER 4 in Symbiosis Institute of Technology, Pune.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="ssc.jpeg">
+                    <div class="layer">
+                        <h3>SSC BOARD TOPPER</h3>
+                        <p> First Topper in Maharashtra State in 10th grade i.e SSC board of the year 2019-2020 </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="sih.png">
+                    <div class="layer">
+                        <h3>Presentation of SIH'24 Problem Statement</h3>
+                        <p>Presented and got selected for SIH'24 from the college for our AI ChatBot built for Justice Department of India.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="epic.png">
+                    <div class="layer">
+                        <h3>Pitched Startup Idea to EPIC Cell for IIT Bombay Conference</h3>
+                        <p>Me and my team - 'INNOVATEHERS' pitched our startup idea to the EPIC CELL.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Extra-Curricular Achievements</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="dance.jpg">
+                    <div class="layer">
+                        <h3>Bharatanatyam Dancer</h3>
+                        <p>Learned and still practicing Bharatanatyam Classical Dance Form for 14 years. 
+                            Earned several honors and prizes for the same.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="bg2.jpeg">
+                    <div class="layer">
+                        <h3>Anchored for Bajaj's BEST Graduation Program</h3>
+                        <p>Anchored for Bajaj's BEST Graduation Program in Symbiosis Institute of Technology, Pune and gained experience for Public Communication and learnt Soft Skills</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="ngo.jpeg">
+                    <div class="layer">
+                        <h3>Intach NGO, Pune</h3>
+                        <p>I am an active member of Intach NGO, Pune that preserves the heritage and culture of our country. </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="eatsure.png">
+                    <div class="layer">
+                        <h3>Eatsure Cloud'24 Semi-Finalist</h3>
+                        <p>Me and my team ' Team Byte ' through our dedication and perseverance are succesfull semi-finalist for this Ideathon by Eatsure. </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-------------------------------------------------------------------CONTACT----------------------------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>pranavisingh44@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 8788566217</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/pranavi-singh-bb5894245/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/pranavisingh8"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Pranavi__Singhe.pdf" download class="btn">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright 2023 © Pranavi Singh</p>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwWuUr7gxNfeSe0UfuXEdDpRAPX4-ywy9YKtGLHs06-LALQUn01zqiERTf9ojV1IeaP/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully!"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 50000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
